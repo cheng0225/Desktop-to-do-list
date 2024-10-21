@@ -1,0 +1,18 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "schedule",
+  "outputfilename": "schedule",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "k",
+    "email": "k@qq.com"
+  },
+  "windows": {
+    "framed": false,
+    "borderless": true,
+    "transparent": true
+  }
+}
